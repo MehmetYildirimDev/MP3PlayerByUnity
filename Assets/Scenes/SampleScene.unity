@@ -625,7 +625,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &471876697
 RectTransform:
   m_ObjectHideFlags: 0
@@ -989,7 +989,7 @@ GameObject:
   - component: {fileID: 787836003}
   - component: {fileID: 787836004}
   m_Layer: 5
-  m_Name: Slider
+  m_Name: DuractionSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1056,7 +1056,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 471876698}
   m_FillRect: {fileID: 388257334}
   m_HandleRect: {fileID: 471876697}
@@ -1730,6 +1730,7 @@ MonoBehaviour:
   LenghtText: {fileID: 271988654}
   NumberText: {fileID: 1179024673}
   PlayPauseButtonText: {fileID: 752159081}
+  DurationSlider: {fileID: 787836004}
   MusicList:
   - {fileID: 8300000, guid: 10ce7c9cf7f70df4d8f3827428083cf8, type: 3}
   - {fileID: 8300000, guid: d31bd1462b0895940a5444812e6de2c7, type: 3}
